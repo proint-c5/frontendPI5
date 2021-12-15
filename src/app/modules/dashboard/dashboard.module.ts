@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { MainComponent } from './components/main/main.component';
-import { NbCardModule, NbSpinnerModule } from '@nebular/theme';
+import { NbCardModule, NbSpinnerModule, NbLayoutModule } from '@nebular/theme';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { SharedModule } from '../shared/shared.module';
@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 const NB_MODULES: any[] = [
   NbCardModule,
   NbSpinnerModule,
+  NbLayoutModule
 ];
 
 const SERVICES: any[] = [
