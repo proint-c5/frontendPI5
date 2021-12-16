@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { MainComponent } from './components/main/main.component';
-import { NbCardModule, NbSpinnerModule, NbLayoutModule, NbSidebarModule } from '@nebular/theme';
+import { NbCardModule, NbSpinnerModule, NbLayoutModule, NbSidebarModule, } from '@nebular/theme';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { SharedModule } from '../shared/shared.module';
