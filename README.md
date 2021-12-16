@@ -1,3 +1,22 @@
+# Run project
+
+1 install packages
+
+```bash
+npm i
+```
+
+2 Run project
+
+```bash
+ng serve
+```
+or LAN:
+
+```bash
+ng serve --host=0.0.0.0 --disable-host-check 
+```
+
 # OpenSettingsSrc
 
 Quickstart, de proyecto con Angular & Laravel. Código abierto, si necesitan asesoría comunicarse con el autor.
