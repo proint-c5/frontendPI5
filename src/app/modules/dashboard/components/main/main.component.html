@@ -8,9 +8,57 @@
                 Página principal
             </span>
         </div>
-        <div></div>
+        <div>
+        </div>
+
     </nb-card-header>
+        
     <nb-card-body>
+
+            <nb-layout>
+                <nb-layout-header>SABIAS QUE?</nb-layout-header>
+                <nb-layout-column class="colored-column-warning">Left column
+                    <nb-reveal-card>
+                        <nb-card-front>
+                          <nb-card accent="success">
+                            <nb-card-header>Front Card Header</nb-card-header>
+                            <nb-card-body>
+                             Un medico.
+                            </nb-card-body>
+                          </nb-card>
+                        </nb-card-front>
+                        <nb-card-back>
+                          <nb-card accent="primary">
+                            <nb-card-header>Back Card Header</nb-card-header>
+                            <nb-card-body>
+                              Aqui
+                            </nb-card-body>
+                          </nb-card>
+                        </nb-card-back>
+                      </nb-reveal-card>
+                </nb-layout-column>
+                <nb-layout-column class="colored-column-danger">Right column
+                    <nb-reveal-card>
+                        <nb-card-front>
+                          <nb-card accent="success">
+                            <nb-card-header>Front Card Header</nb-card-header>
+                            <nb-card-body>
+                             Un medico.
+                            </nb-card-body>
+                          </nb-card>
+                        </nb-card-front>
+                        <nb-card-back>
+                          <nb-card accent="primary">
+                            <nb-card-header>Back Card Header</nb-card-header>
+                            <nb-card-body>
+                              Aqui
+                            </nb-card-body>
+                          </nb-card>
+                        </nb-card-back>
+                      </nb-reveal-card>
+
+                </nb-layout-column>
+              </nb-layout>
 
         <!-- <div *ngIf="apiLoaded | async">
             <google-map [center]="position" [zoom]="8" width="100%" height="63%">
